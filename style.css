@@ -1,0 +1,500 @@
+    html {
+        scroll-behavior: smooth;
+        /* -webkit-tap-highlight-color: transparent; */
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        color: #1c1d1f;
+    }
+    
+    body {
+        overflow-x: hidden;
+        font-family: "udemy sans", "sf pro text", -apple-system, BlinkMacSystemFont, Roboto, "segoe ui", Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+        /* background-color: blue; */
+    }
+    
+    header {
+        background-color: #fff;
+        /* box-shadow: 0 2px 4px rgb(0 0 0 0.8), 0 4px 12px rgb(0 0 0 0.8); */
+        /* background-color: red; */
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        padding: 12px 0;
+        /* box-shadow: 0 2px 4px rgb(0 0 0 0.8), 0 4px 12px rgb(0 0 0 0.8); */
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    ul li {
+        list-style-type: none;
+    }
+    
+    ul li,
+    .search-box {
+        margin-right: 25px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul li a {
+        color: #1c1d1f;
+    }
+    
+    ul li a,
+    .featured p,
+    footer ul li {
+        font-size: 14px;
+        line-height: 19.6px;
+    }
+    
+    nav ul li a:hover {
+        color: #5624d0;
+    }
+    
+    ul li:hover,
+    .hover {
+        cursor: pointer;
+    }
+    
+    .search-box,
+    button,
+    #world {
+        border: 1px solid#1c1d1f;
+    }
+    
+    .search-box {
+        /* display: inline-flex;
+    align-items: center; */
+        /* border: 1px solid#1c1d1f; */
+        padding: 10px 300px 10px 10px;
+        border-radius: 50px;
+        background-color: #F7F9FA;
+        /* width: 80%; */
+    }
+    
+    img[alt=search-icon] {
+        padding-right: 20px;
+    }
+    
+    input {
+        border: none;
+        outline: none;
+        padding: 5px 0;
+        background-color: transparent;
+    }
+    
+    button {
+        padding: 10px 16px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        background-color: transparent;
+    }
+    
+    button:hover,
+    #world:hover {
+        background-color: #F5F5F5;
+        /* background-color: #f7f9fa; */
+    }
+    
+    .signup {
+        background-color: #1c1d1f;
+        color: #fff;
+    }
+    
+    #world {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 10px;
+    }
+    /* main styles */
+    
+    .section-one {
+        background: url(./assets/first-bg-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+        margin: 0 5px;
+        position: relative;
+    }
+    
+    .section-one-text {
+        background-color: #ffffff;
+        position: absolute;
+        top: 70px;
+        left: 70px;
+        width: 28%;
+        padding: 25px;
+    }
+    
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 700;
+    }
+    
+    .section-one-text h1 {
+        padding-bottom: 7px;
+    }
+    
+    p,
+    .u-biz-info li,
+    .u-biz-info p {
+        font-size: 19px;
+        font-size: 400;
+        Line-height: 26.6px;
+    }
+    
+    .section-two {
+        margin-top: 50px;
+    }
+    
+    .section-two h1 {
+        padding-bottom: 20px;
+    }
+    
+    .section-two p {
+        padding-bottom: 10px;
+    }
+    
+    .section-two ul {
+        display: inline-flex;
+        margin-bottom: 15px;
+    }
+    
+    .section-two ul li,
+    .content a,
+    .featured a {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.2px;
+    }
+    
+    .section-two ul li,
+    .content a {
+        color: #6a6f73;
+        /* padding: 0;
+                margin: 0; */
+    }
+    
+    .section-two ul li:hover {
+        color: #1c1d1f;
+    }
+    
+    .course-box {
+        border: 1px solid #d1d7dc;
+        padding: 30px;
+    }
+    
+    .course-text {
+        width: 800px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    
+    .course-text p {
+        font-size: 16px;
+        line-height: 22.4px;
+        padding-top: 13px;
+    }
+    
+    .btn-margin {
+        margin: 13px 0;
+    }
+    
+    .overflow,
+    .overflow-two {
+        display: flex;
+        overflow-x: scroll;
+    }
+    
+    .content {
+        width: 300px;
+        height: 300px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    
+    img[alt=content-img] {
+        border: 1px solid #d1d7dc;
+        /* width: 100%;
+            height: auto;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; */
+    }
+    
+    .content a {
+        color: #1c1d1f;
+    }
+    
+    .small-faint-text,
+    .best {
+        font-size: 12px;
+    }
+    
+    .small-faint-text,
+    span h3 {
+        color: #6a6f73;
+    }
+    
+    h3 {
+        font-size: 16px;
+        line-height: 19.2px;
+        color: #1c1d1f;
+    }
+    
+    .content h3 {
+        display: inline;
+    }
+    
+    .align {
+        display: inline-flex;
+        align-items: flex-end;
+    }
+    
+    .color {
+        font-weight: 700;
+        color: #B4690E;
+    }
+    
+    img[alt=star] {
+        padding: 0 5px;
+    }
+    
+    .strike {
+        text-decoration: line-through;
+        font-weight: 400;
+        padding-left: 5px;
+        color: #6a6f73;
+    }
+    
+    .best {
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: 700;
+        background-color: #ECEB98;
+        padding: 3px 5px;
+    }
+    
+    .just-icon {
+        background-color: #F7F9FA;
+        padding: 20px 0;
+        margin: 70px auto 50px auto;
+    }
+    
+    .icon-wrapper {
+        width: 28%;
+        /* display: inline-flex; */
+        /* align-items: center; */
+    }
+    
+    .icon-bg {
+        background-color: #D1D7DC;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    
+    img[alt=icon] {
+        /* width: 100%; */
+        /* height: auto; */
+        padding: 10px;
+    }
+    
+    .other h2 {
+        margin: 20px 0;
+    }
+    
+    .overflow-two {
+        margin-bottom: 50px;
+    }
+    
+    .category-wrapper {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+        /* justify-content: space-between; */
+        /* width: 100%; */
+    }
+    
+    .category {
+        cursor: pointer;
+    }
+    
+    .category h3 {
+        padding-top: 4px;
+    }
+    
+    .featured {
+        background-color: #F7F9FA;
+        padding: 35px 0 55px 0;
+    }
+    
+    .list {
+        width: 30%;
+    }
+    
+    .featured h4 {
+        font-size: 19px;
+        line-height: 22.8px;
+        margin-bottom: 20px;
+    }
+    
+    h5,
+    .center p,
+    footer p {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+    
+    h5 {
+        margin-bottom: 7px;
+    }
+    
+    h5>a {
+        color: #5624d0;
+        text-decoration: underline;
+    }
+    
+    .featured p {
+        margin-bottom: 15px;
+    }
+    
+    .partner {
+        margin: 80px 0;
+    }
+    
+    .center {
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .center h2 {
+        line-height: 32.4px;
+    }
+    
+    .center p {
+        margin-top: 10px;
+    }
+    
+    .u-biz {
+        width: 70%;
+        margin: 120px auto 50px auto;
+    }
+    
+    .u-biz-info {
+        width: 42%;
+    }
+    
+    .u-biz-img {
+        width: 45%;
+    }
+    
+    .u-biz-info h1 {
+        font-family: SuisseWorks, Georgia, Times, "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+        margin: 15px 0;
+    }
+    
+    .u-biz-info ul {
+        padding-left: 30px;
+    }
+    
+    .u-biz-info ul li {
+        list-style-type: disc;
+        padding-bottom: 10px;
+    }
+    
+    footer {
+        background-color: #1C1D1F;
+        padding: 30px 0 30px 0;
+    }
+    
+    .inner {
+        width: 93%;
+        margin: 0 auto;
+    }
+    
+    .split {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer ul {
+        width: 70%;
+        /* display: flex;
+        justify-content: space-between; */
+    }
+    
+    footer ul li {
+        color: #ffffff;
+        padding-bottom: 10px;
+    }
+    
+    footer ul li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .size {
+        width: 12%;
+    }
+    
+    #language {
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid#ffffff;
+        padding: 8px 40px 8px 20px;
+        cursor: pointer;
+    }
+    
+    #language p {
+        color: #ffffff;
+        font-weight: 400;
+    }
+    
+    img[alt=world2] {
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .base {
+        display: inline-flex;
+    }
+    
+    footer .logo {
+        margin-top: 55px;
+    }
+    
+    .inc {
+        color: #ffffff;
+    }
