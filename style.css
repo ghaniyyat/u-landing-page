@@ -255,7 +255,8 @@
     }
     
     .small-faint-text,
-    .best {
+    .best,
+    .inc {
         font-size: 12px;
     }
     
@@ -449,14 +450,14 @@
     }
     
     footer ul {
-        width: 70%;
+        width: 65%;
         /* display: flex;
         justify-content: space-between; */
     }
     
     footer ul li {
         color: #ffffff;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
     }
     
     footer ul li:hover {
@@ -465,7 +466,7 @@
     }
     
     .size {
-        width: 12%;
+        width: 11%;
     }
     
     #language {
@@ -488,7 +489,7 @@
     }
     
     .base {
-        display: inline-flex;
+        align-items: flex-end;
     }
     
     footer .logo {
@@ -497,4 +498,5 @@
     
     .inc {
         color: #ffffff;
+        padding-bottom: 10px;
     }
